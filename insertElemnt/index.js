@@ -27,3 +27,15 @@ for(let i=lastInsert.length-1; i >=position1; i--){
 }
 lastInsert[position1]=insetNum
 console.log(lastInsert)
+
+
+// insert value of biging of the array
+
+let data=[12,445,77,89,2];
+let newEle=432;
+let position=0;
+for(let i=data.length-1; i>=position; i--){
+    data[i+1]=data[i]
+};
+data[position]=newEle;
+console.log(data)
