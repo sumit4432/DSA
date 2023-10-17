@@ -7,7 +7,7 @@
 // myData[position]=newEle;
 // console.log(myData)
 
-// // insert number;
+// // // insert number;
 // let data=[12,34,56,78,86];
 // let newNum=242;
 // let target=2;
@@ -17,7 +17,7 @@
 // data[target]=newNum;
 // console.log(data);
 
-// // Insert a value end of array
+// // // Insert a value end of array
 
 // let lastInsert=[23,45,67,23,89];
 // let insetNum=265;
@@ -29,7 +29,7 @@
 // console.log(lastInsert)
 
 
-// insert value of biging of the array
+// // insert value of biging of the array
 
 // let data=[12,445,77,89,2];
 // let newEle=432;
@@ -40,7 +40,7 @@
 // data[position]=newEle;
 // console.log(data);
 
-// // find max value
+// // // find max value
 
 // function findMax(arr){
 //     if(arr.length===0){
@@ -76,7 +76,7 @@
 //     }
 // }
 // console.log(unique)
-// find second largest
+// // find second largest
 
 // let myData=[1,2,3,45,6775,4];
 // let first=-Infinity;
@@ -93,32 +93,32 @@
 // console.log(second);
 // console.log(first)
 
-// //insert beging of array
+// // //insert beging of array
 
 // let myData=[12,33,41,44,4];
 // let neItwm=23;
 // myData.unshift(neItwm);
 // console.log(myData)
 
-// insert end of the array
+// // insert end of the array
 
 // let data=[2,3,4,56,7];
 // let newData=232;
 // data.push(newData)
 // console.log(data)
 
-// insert specific  index value
+// // insert specific  index value
 
-let data=[2,3,4,5,6,7];
-let element=23;
-data.splice(2,0,element);
-console.log(data)
-
-
+// let data=[2,3,4,5,6,7];
+// let element=23;
+// data.splice(2,0,element);
+// console.log(data)
 
 
 
-// //sum of zero first pairs
+
+
+// // //sum of zero first pairs
 
 
 
