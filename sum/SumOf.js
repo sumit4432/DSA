@@ -57,6 +57,7 @@ function sumOfNigative(arr){
     return total
 }
 
+
 let sumOfNagi=[2,4,5,7,-3,5,-78];
 let sumNegitive=sumOfNigative(sumOfNagi);
 console.log("the sum of", sumNegitive)
