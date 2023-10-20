@@ -132,4 +132,31 @@ function FindByName(arr, pro, valu){
 }
 
 let findDeatisl=FindByName(student, 'name', targetName);
-console.log(findDeatisl)
+console.log(findDeatisl);
+
+
+function findFristAccString(mainString, subString){
+    const mainLength=mainString.length;
+    const subLength=subString.length;
+    for(let i=0; i<=mainLength-subLength; i++){
+        let found=true;
+        for(let j=0; j<subLength; j++){
+            if(mainString[i+j]!==subString[j]){
+                found=false;
+                break;
+            }
+        }
+        if(found){
+            return i
+        }
+    }
+    return -1
+};
+let myString="hello every one this is JavaScript DSA";
+let myString1="JavaScript";
+let firstStringResults=findFristAccString(myString, myString1)
+if(firstStringResults !== -1){
+    console.log(`this is the my string "${myString1}" and his index value is ${firstStringResults}`)
+}else{
+    console ("string not found")
+}
